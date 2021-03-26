@@ -62,8 +62,47 @@ body{
 .ring{
     width: 400px;
 }
+.list-unstyled li{
+    /* font-weight: 600; */
+}
+.list-un li{
+    font-weight: 600;
+    float: left;
+    padding-left: 6%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.list-un li h2 a{
+    color: white;
 
-@media only screen and (max-width: 600px) {
+}
+.list-un li h2 a:hover{
+    color: #000;
+    
+}
+.colsm2{
+    flex: 0 0 auto;
+    width: 11%;
+}
+
+
+
+@media only screen and (max-width: 1200px){
+    .list-un li {
+        font-weight: 600;
+        padding-left: 0%;
+        border-bottom: 1px solid red;
+        float: none;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .hide{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
     .banner-bottom{
         position: static;
     }
@@ -90,6 +129,23 @@ body{
     }
     .ring{
         width: 300px;
+    }
+
+    .call-to-action{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+    .list-un li {
+        font-weight: 600;
+        padding-left: 0%;
+        border-bottom: 1px solid red;
+        float: none;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .hide{
+        display: none;
     }
     
   }
