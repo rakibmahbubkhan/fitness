@@ -46,9 +46,9 @@ body{
     padding-top: 10%;
 }
 
-.call-to-action{
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+.top-bottom-padding{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
     text-align: center;
     text-transform: uppercase;
 }
@@ -84,6 +84,42 @@ body{
     flex: 0 0 auto;
     width: 11%;
 }
+.box{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    padding: 0px;
+}
+.box-container{
+    height: 150px;
+    box-shadow: 8px 0 15px -17px rgb(8 8 8 / 80%), 0px 0 0px 0px rgb(4 4 4 / 80%)
+}
+.active{
+    background-color: #e74c3c;
+}
+
+.icon2{
+    padding-bottom: 31px;
+    position: relative;
+    top: 8px;
+    font-size: 2rem;
+}
+
+.circle{
+    width: 176px;
+    height: 163px;
+    background-color: #000;
+    border-radius: 100%;
+    margin: 15%;
+}
+.text-xl{
+    font-size: 4rem;
+}
+
+.copyright{
+    font-size: .5rem;
+}
+
+
 
 
 
@@ -143,6 +179,21 @@ body{
         float: none;
         margin-top: 1rem;
         margin-bottom: 1rem;
+    }
+
+    .text-xl{
+        font-size: 2.5rem;
+    }
+
+    .circle{
+        position: relative;
+        left: 9%;
+    }
+
+    .footer-menu li{
+        font-size: 1.5rem;
+        text-align: center;
+        float: none !important;
     }
     .hide{
         display: none;
